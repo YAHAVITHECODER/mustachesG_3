@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px !important;
+}
+
+.pap:hover{
+    background-color: rgb(20, 92, 11);
+}
+
+.peek:hover{
+    background-color: rgb(57, 211, 65);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px rgb(21, 119, 8);}
+    to {box-shadow: 1px 1px 38px rgb(78, 233, 78);}
+}
